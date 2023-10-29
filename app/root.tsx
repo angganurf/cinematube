@@ -215,26 +215,26 @@ export const loader = async ({ request }: LoaderFunctionArgs) => {
 };
 
 export const meta: MetaFunction<typeof loader> = () => [
-  { title: 'Sora' },
-  { name: 'description', content: 'Watching movies, series, anime and more in Sora' },
+  { title: 'Cinematube' },
+  { name: 'description', content: 'Watching movies, series, anime and more in Cinematube' },
   {
     name: 'keywords',
     content:
-      'Sora, Sora Movies, Sora Series, Sora Anime, Sora Chill, SoraChill, watch movies, watch series, watch anime, watch movies online, watch series online, watch anime online, free movies, free series, free anime, free movies online, free series online, free anime online, watch movies free, watch series free, watch anime free, watch movies online free, watch series online free, watch anime online free',
+      'Cinematube, Cinematube Movies, Cinematube Series, Cinematube Anime, Cinematube Chill, CinematubeChill, watch movies, watch series, watch anime, watch movies online, watch series online, watch anime online, free movies, free series, free anime, free movies online, free series online, free anime online, watch movies free, watch series free, watch anime free, watch movies online free, watch series online free, watch anime online free',
   },
-  { property: 'og:url', content: 'https://sorachill.vercel.app' },
-  { property: 'og:title', content: 'Sora' },
-  { property: 'og:image', content: 'https://sorachill.vercel.app/api/ogimage?it=home' },
-  { property: 'og:description', content: 'Watching movies, series, anime and more in Sora' },
+  { property: 'og:url', content: 'https://cinematube.vercel.app' },
+  { property: 'og:title', content: 'Cinematube' },
+  { property: 'og:image', content: 'https://cinematube.vercel.app/api/ogimage?it=home' },
+  { property: 'og:description', content: 'Watching movies, series, anime and more in Cinematube' },
   { property: 'og:type', content: 'website' },
-  { property: 'og:site_name', content: 'Sora' },
+  { property: 'og:site_name', content: 'Cinematube' },
   { property: 'og:image:width', content: '1200' },
   { property: 'og:image:height', content: '630' },
   { name: 'twitter:card', content: 'summary_large_image' },
-  { name: 'twitter:site', content: '@sora' },
-  { name: 'twitter:image', content: 'https://sorachill.vercel.app/api/ogimage?it=home' },
-  { name: 'twitter:title', content: 'Sora' },
-  { name: 'twitter:description', content: 'Watching movies, series, anime and more in Sora' },
+  { name: 'twitter:site', content: '@Cinematube' },
+  { name: 'twitter:image', content: 'https://cinematube.vercel.app/api/ogimage?it=home' },
+  { name: 'twitter:title', content: 'Cinematube' },
+  { name: 'twitter:description', content: 'Watching movies, series, anime and more in Cinematube' },
 ];
 
 export const handle: Handle = {
@@ -433,6 +433,10 @@ const Document = ({ children, title }: DocumentProps) => {
           type="text/javascript"
           src="//largeharass.com/a3/75/ec/a375ec9c648fc1004b9d298d336eddf8.js"
         />
+        <script
+          type="text/javascript"
+          src="//largeharass.com/84/9a/af/849aaf86b25b475566d1cbee6784c8b4.js"
+        />
       </head>
       <body>
         {process.env.NODE_ENV === 'development' || !gaTrackingId || isBot ? null : (
@@ -487,7 +491,7 @@ const App = () => {
     };
     if (isUpdateAvailable) {
       toast.success('Update Available', {
-        description: 'A new version of Sora is available.',
+        description: 'A new version of Cinematube is available.',
         action: {
           label: 'Update',
           onClick: () => reloadPage(),
@@ -541,7 +545,7 @@ const App = () => {
                       }}
                     />
                     <h1 className="bg-gradient-to-tr from-secondary to-primary to-50% bg-clip-text !text-3xl font-bold tracking-normal text-transparent md:!text-5xl">
-                      SORA
+                      Cinematube
                     </h1>
                   </div>
                   <div className="h-9 w-9 animate-spin">

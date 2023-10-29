@@ -57,7 +57,7 @@ export const meta = mergeMeta<
     { title: `Sora - ${name} ${seasonDetail?.name || ''} - Crew` },
     {
       property: 'og:url',
-      content: `https://sorachill.vercel.app/tv-shows/${params.tvId}/season/${params.seasonId}/crew`,
+      content: `https://cinematube.vercel.app/tv-shows/${params.tvId}/season/${params.seasonId}/crew`,
     },
     { property: 'og:title', content: `Sora - ${name} ${seasonDetail?.name || ''} - Crew` },
     { name: 'twitter:title', content: `Sora - ${name} ${seasonDetail?.name || ''} - Crew` },

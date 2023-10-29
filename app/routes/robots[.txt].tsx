@@ -17,7 +17,7 @@ export function loader() {
       { type: 'disallow', value: '/' },
       { type: 'userAgent', value: '*' },
       { type: 'disallow', value: '' },
-      { type: 'sitemap', value: 'https://sorachill.vercel.app/sitemap.xml' },
+      { type: 'sitemap', value: 'https://cinematube.vercel.app/sitemap.xml' },
     ],
     {
       appendOnDefaultPolicies: false,

@@ -47,7 +47,7 @@ export const meta = mergeMeta<typeof loader>(({ data, params }) => {
     },
     {
       property: 'og:url',
-      content: `https://sorachill.vercel.app/search/people/${params.peopleKeyword}`,
+      content: `https://cinematube.vercel.app/search/people/${params.peopleKeyword}`,
     },
     { property: 'og:title', content: `Sora - Search results for ${params.peopleKeyword}` },
     {
