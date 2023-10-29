@@ -43,13 +43,13 @@ export const meta = mergeMeta<null, { 'routes/people+/$peopleId': typeof peopleI
     const { name } = detail || {};
     const peopleTitle = name || '';
     return [
-      { title: `Sora - ${peopleTitle} - Credits` },
+      { title: `Cinematube - ${peopleTitle} - Credits` },
       {
         property: 'og:url',
         content: `https://cinematube.vercel.app/people/${params.peopleId}/credits`,
       },
-      { property: 'og:title', content: `Sora - ${peopleTitle} - Credits` },
-      { name: 'twitter:title', content: `Sora - ${peopleTitle} - Credits` },
+      { property: 'og:title', content: `Cinematube - ${peopleTitle} - Credits` },
+      { name: 'twitter:title', content: `Cinematube - ${peopleTitle} - Credits` },
     ];
   },
 );

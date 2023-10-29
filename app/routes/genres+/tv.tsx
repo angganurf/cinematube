@@ -12,13 +12,13 @@ import { useTypedRouteLoaderData } from '~/utils/react/hooks/useTypedRouteLoader
 import { BreadcrumbItem } from '~/components/elements/Breadcrumb';
 
 export const meta = mergeMeta(() => [
-  { title: 'Sora Tv shows - Genres' },
+  { title: 'Cinematube Tv shows - Genres' },
   { name: 'description', content: 'Tv shows Genres' },
   { property: 'og:url', content: 'https://cinematube.vercel.app/genres/tv' },
-  { property: 'og:title', content: 'Sora Tv shows - Genres' },
+  { property: 'og:title', content: 'Cinematube Tv shows - Genres' },
   { property: 'og:image', content: 'https://cinematube.vercel.app/api/ogimage?it=tvshows' },
   { property: 'og:description', content: 'Tv shows Genres' },
-  { name: 'twitter:title', content: 'Sora Tv shows - Genres' },
+  { name: 'twitter:title', content: 'Cinematube Tv shows - Genres' },
   { name: 'twitter:description', content: 'Tv shows Genres' },
   { name: 'twitter:image', content: 'https://cinematube.vercel.app/api/ogimage?it=tvshows' },
 ]);

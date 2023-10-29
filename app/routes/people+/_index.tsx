@@ -13,7 +13,7 @@ import MediaList from '~/components/media/MediaList';
 import { BreadcrumbItem } from '~/components/elements/Breadcrumb';
 
 export const meta = mergeMeta(() => [
-  { title: 'Sora - Popular People' },
+  { title: 'Cinematube - Popular People' },
   { name: 'description', content: 'Discover the most popular celebrities on Sora.' },
   {
     name: 'keywords',
@@ -21,10 +21,10 @@ export const meta = mergeMeta(() => [
       'popular celebrities, popular celebrity, top celebrities, top celebrity, people celebrity, celebrity people, best celebrity, best celebrities, famous celebrity, famous people, celebrity movies, movies by celebrity, celebrity tv shows, tv show celebrities, celebrity television shows, celebrity tv series',
   },
   { property: 'og:url', content: 'https://cinematube.vercel.app/people' },
-  { property: 'og:title', content: 'Sora - Popular People' },
+  { property: 'og:title', content: 'Cinematube - Popular People' },
   { property: 'og:image', content: 'https://cinematube.vercel.app/api/ogimage?it=people' },
   { property: 'og:description', content: 'Discover the most popular celebrities on Sora.' },
-  { name: 'twitter:title', content: 'Sora - Popular People' },
+  { name: 'twitter:title', content: 'Cinematube - Popular People' },
   { name: 'twitter:description', content: 'Discover the most popular celebrities on Sora.' },
   { name: 'twitter:image', content: 'https://cinematube.vercel.app/api/ogimage?it=people' },
 ]);

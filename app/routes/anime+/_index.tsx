@@ -41,12 +41,12 @@ export const loader = async ({ request }: LoaderFunctionArgs) => {
 };
 
 export const meta = mergeMeta(() => [
-  { title: 'Sora - Anime' },
+  { title: 'Cinematube - Anime' },
   { name: 'description', content: 'Discover anime in Sora' },
   { property: 'og:url', content: 'https://cinematube.vercel.app/anime' },
-  { property: 'og:title', content: 'Sora - Anime' },
+  { property: 'og:title', content: 'Cinematube - Anime' },
   { property: 'og:description', content: 'Discover anime in Sora' },
-  { name: 'twitter:title', content: 'Sora - Anime' },
+  { name: 'twitter:title', content: 'Cinematube - Anime' },
   { name: 'twitter:description', content: 'Discover anime in Sora' },
 ]);
 

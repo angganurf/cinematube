@@ -18,16 +18,16 @@ import { BreadcrumbItem } from '~/components/elements/Breadcrumb';
 export const meta = mergeMeta(({ params }) => {
   const { mediaType } = params;
   return [
-    { title: `Sora - Trending ${mediaType} This Week` },
+    { title: `Cinematube - Trending ${mediaType} This Week` },
     {
       name: 'keywords',
       content: `trending, trending ${mediaType}, trending this week, trending ${mediaType} this week`,
     },
     { property: 'og:url', content: `https://cinematube.vercel.app/trending/${mediaType}/week` },
-    { property: 'og:title', content: `Sora - Trending ${mediaType} This Week` },
+    { property: 'og:title', content: `Cinematube - Trending ${mediaType} This Week` },
     { name: 'description', content: `Trending ${mediaType} This Week` },
     { property: 'og:description', content: `Trending ${mediaType} This Week` },
-    { name: 'twitter:title', content: `Sora - Trending ${mediaType} This Week` },
+    { name: 'twitter:title', content: `Cinematube - Trending ${mediaType} This Week` },
     { name: 'twitter:description', content: `Trending ${mediaType} This Week` },
   ];
 });

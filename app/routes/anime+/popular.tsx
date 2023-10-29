@@ -15,12 +15,12 @@ import MediaList from '~/components/media/MediaList';
 import { BreadcrumbItem } from '~/components/elements/Breadcrumb';
 
 export const meta = mergeMeta(() => [
-  { title: 'Sora - Popular Anime' },
+  { title: 'Cinematube - Popular Anime' },
   { name: 'description', content: 'Popular Anime' },
   { property: 'og:url', content: 'https://cinematube.vercel.app/anime/popular' },
-  { property: 'og:title', content: 'Sora - Popular Anime' },
+  { property: 'og:title', content: 'Cinematube - Popular Anime' },
   { property: 'og:description', content: 'Popular Anime' },
-  { name: 'twitter:title', content: 'Sora - Popular Anime' },
+  { name: 'twitter:title', content: 'Cinematube - Popular Anime' },
   { name: 'twitter:description', content: 'Popular Anime' },
 ]);
 

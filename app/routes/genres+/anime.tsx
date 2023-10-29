@@ -12,13 +12,13 @@ import { animeGenres } from '~/constants/filterItems';
 import { BreadcrumbItem } from '~/components/elements/Breadcrumb';
 
 export const meta = mergeMeta(() => [
-  { title: 'Sora Anime - Genres' },
+  { title: 'Cinematube Anime - Genres' },
   { name: 'description', content: 'Anime Genres' },
   { property: 'og:url', content: 'https://cinematube.vercel.app/genres/anime' },
-  { property: 'og:title', content: 'Sora Anime - Genres' },
+  { property: 'og:title', content: 'Cinematube Anime - Genres' },
   { property: 'og:image', content: 'https://cinematube.vercel.app/api/ogimage?it=anime' },
   { property: 'og:description', content: 'Anime Genres' },
-  { name: 'twitter:title', content: 'Sora Anime - Genres' },
+  { name: 'twitter:title', content: 'Cinematube Anime - Genres' },
   { name: 'twitter:description', content: 'Anime Genres' },
   { name: 'twitter:image', content: 'https://cinematube.vercel.app/api/ogimage?it=anime' },
 ]);

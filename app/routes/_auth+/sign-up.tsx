@@ -21,13 +21,13 @@ type ActionData = {
 };
 
 export const meta = mergeMeta(() => [
-  { title: 'Sora - Sign Up' },
-  { name: 'description', content: 'Sign up for a Sora account.' },
-  { property: 'og:title', content: 'Sora - Sign Up' },
-  { property: 'og:description', content: 'Sign up for a Sora account.' },
+  { title: 'Cinematube - Sign Up' },
+  { name: 'description', content: 'Sign up for a Cinematube account.' },
+  { property: 'og:title', content: 'Cinematube - Sign Up' },
+  { property: 'og:description', content: 'Sign up for a Cinematube account.' },
   { property: 'og:url', content: 'https://cinematube.vercel.app/sign-up' },
-  { property: 'twitter:title', content: 'Sora - Sign Up' },
-  { property: 'twitter:description', content: 'Sign up for a Sora account.' },
+  { property: 'twitter:title', content: 'Cinematube - Sign Up' },
+  { property: 'twitter:description', content: 'Sign up for a Cinematube account.' },
 ]);
 
 export const action = async ({ request }: ActionFunctionArgs) => {
@@ -121,7 +121,7 @@ export const action = async ({ request }: ActionFunctionArgs) => {
     {
       type: 'success',
       title: 'Sign Up Successfully',
-      description: 'Welcome to Sora!',
+      description: 'Welcome to Cinematube!',
     },
     { headers: { 'Set-Cookie': await commitAuthCookie(authCookie) } },
   );

@@ -14,12 +14,12 @@ import { CACHE_CONTROL } from '~/utils/server/http';
 import MediaList from '~/components/media/MediaList';
 
 export const meta = mergeMeta(() => [
-  { title: 'Sora - Tv Shows' },
+  { title: 'Cinematube - Tv Shows' },
   { name: 'description', content: 'Discover tv shows in Sora' },
   { property: 'og:url', content: 'https://cinematube.vercel.app/tv-shows/' },
-  { property: 'og:title', content: 'Sora - Tv Shows' },
+  { property: 'og:title', content: 'Cinematube - Tv Shows' },
   { property: 'og:description', content: 'Discover tv shows in Sora' },
-  { name: 'twitter:title', content: 'Sora - Tv Shows' },
+  { name: 'twitter:title', content: 'Cinematube - Tv Shows' },
   { name: 'twitter:description', content: 'Discover tv shows in Sora' },
 ]);
 

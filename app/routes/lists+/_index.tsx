@@ -14,10 +14,10 @@ import MediaList from '~/components/media/MediaList';
 import { BreadcrumbItem } from '~/components/elements/Breadcrumb';
 
 export const meta = mergeMeta(() => [
-  { title: 'Sora - Featured Lists' },
+  { title: 'Cinematube - Featured Lists' },
   { property: 'og:url', content: 'https://cinematube.vercel.app/lists/' },
-  { property: 'og:title', content: 'Sora - Featured Lists' },
-  { name: 'twitter:title', content: 'Sora - Featured Lists' },
+  { property: 'og:title', content: 'Cinematube - Featured Lists' },
+  { name: 'twitter:title', content: 'Cinematube - Featured Lists' },
 ]);
 
 export const handle: Handle = {

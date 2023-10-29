@@ -14,13 +14,13 @@ import MediaList from '~/components/media/MediaList';
 import { BreadcrumbItem } from '~/components/elements/Breadcrumb';
 
 export const meta = mergeMeta(() => [
-  { title: 'Sora - Discover anime' },
+  { title: 'Cinematube - Discover anime' },
   { name: 'description', content: 'Discover Anime on Sora' },
   { property: 'og:url', content: 'https://cinematube.vercel.app/discover/anime' },
-  { property: 'og:title', content: 'Sora - Discover anime' },
+  { property: 'og:title', content: 'Cinematube - Discover anime' },
   { property: 'og:image', content: 'https://cinematube.vercel.app/api/ogimage?it=anime' },
   { property: 'og:description', content: 'Discover Anime on Sora' },
-  { name: 'twitter:title', content: 'Sora - Discover anime' },
+  { name: 'twitter:title', content: 'Cinematube - Discover anime' },
   { name: 'twitter:description', content: 'Discover Anime on Sora' },
   { name: 'twitter:image', content: 'https://cinematube.vercel.app/api/ogimage?it=anime' },
 ]);

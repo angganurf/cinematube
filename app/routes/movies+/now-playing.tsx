@@ -16,12 +16,12 @@ import MediaList from '~/components/media/MediaList';
 import { BreadcrumbItem } from '~/components/elements/Breadcrumb';
 
 export const meta = mergeMeta(() => [
-  { title: 'Sora - Now Playing Movies' },
+  { title: 'Cinematube - Now Playing Movies' },
   { name: 'description', content: 'Now Playing Movies' },
   { property: 'og:url', content: 'https://cinematube.vercel.app/movies/now-playing' },
-  { property: 'og:title', content: 'Sora - Now Playing Movies' },
+  { property: 'og:title', content: 'Cinematube - Now Playing Movies' },
   { property: 'og:description', content: 'Now Playing Movies' },
-  { name: 'twitter:title', content: 'Sora - Now Playing Movies' },
+  { name: 'twitter:title', content: 'Cinematube - Now Playing Movies' },
   { name: 'twitter:description', content: 'Now Playing Movies' },
 ]);
 

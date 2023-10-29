@@ -42,7 +42,7 @@ export const meta = mergeMeta<{}, { 'routes/anime+/$animeId': typeof animeIdLoad
     const animeTitle =
       title?.userPreferred || title?.english || title?.romaji || title?.native || '';
     return [
-      { title: `Sora - ${animeTitle} - Episodes` },
+      { title: `Cinematube - ${animeTitle} - Episodes` },
       {
         name: 'description',
         content: description
@@ -53,14 +53,14 @@ export const meta = mergeMeta<{}, { 'routes/anime+/$animeId': typeof animeIdLoad
         property: 'og:url',
         content: `https://cinematube.vercel.app/anime/${params.animeId}/episodes`,
       },
-      { property: 'og:title', content: `Sora - ${animeTitle} - Episodes` },
+      { property: 'og:title', content: `Cinematube - ${animeTitle} - Episodes` },
       {
         property: 'og:description',
         content: description
           ? description?.replace(/<\/?[^>]+(>|$)/g, '')
           : `Watch ${animeTitle} in Sora`,
       },
-      { name: 'twitter:title', content: `Sora - ${animeTitle} - Episodes` },
+      { name: 'twitter:title', content: `Cinematube - ${animeTitle} - Episodes` },
       {
         name: 'twitter:description',
         content: description

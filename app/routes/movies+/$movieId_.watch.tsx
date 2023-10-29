@@ -41,20 +41,20 @@ export const meta = mergeMeta<typeof loader>(({ data, params }) => {
   const { title, overview } = detail || {};
   const movieTitle = title || '';
   return [
-    { title: `Sora - Watch ${movieTitle}` },
+    { title: `Cinematube - Watch ${movieTitle}` },
     { name: 'description', content: overview },
     {
       name: 'keywords',
       content: `Watch ${movieTitle}, Stream ${movieTitle}, Watch ${movieTitle} HD, Online ${movieTitle}, Streaming ${movieTitle}, English, Subtitle ${movieTitle}, English Subtitle`,
     },
     { property: 'og:url', content: `https://cinematube.vercel.app/movies/${params.movieId}/watch` },
-    { property: 'og:title', content: `Sora - Watch ${movieTitle}` },
+    { property: 'og:title', content: `Cinematube - Watch ${movieTitle}` },
     { property: 'og:description', content: overview },
     {
       property: 'og:image',
       content: `https://cinematube.vercel.app/api/ogimage?m=${params.movieId}&mt=movie`,
     },
-    { name: 'twitter:title', content: `Sora - Watch ${movieTitle}` },
+    { name: 'twitter:title', content: `Cinematube - Watch ${movieTitle}` },
     { name: 'twitter:description', content: overview },
     {
       name: 'twitter:image',

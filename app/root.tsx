@@ -490,14 +490,14 @@ const App = () => {
       window.location.reload();
     };
     if (isUpdateAvailable) {
-      toast.success('Update Available', {
-        description: 'A new version of Cinematube is available.',
-        action: {
-          label: 'Update',
-          onClick: () => reloadPage(),
-        },
-        duration: Infinity,
-      });
+      // toast.success('Update Available', {
+      //   description: 'A new version of Cinematube is available.',
+      //   action: {
+      //     label: 'Update',
+      //     onClick: () => reloadPage(),
+      //   },
+      //   duration: Infinity,
+      // });
     }
   }, [isUpdateAvailable, waitingWorker]);
 

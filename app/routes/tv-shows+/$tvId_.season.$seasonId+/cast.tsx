@@ -52,13 +52,13 @@ export const meta = mergeMeta<
   const { detail, seasonDetail } = tvSeasonData;
   const { name } = detail || {};
   return [
-    { title: `Sora - ${name} ${seasonDetail?.name || ''} - Cast` },
+    { title: `Cinematube - ${name} ${seasonDetail?.name || ''} - Cast` },
     {
       property: 'og:url',
       content: `https://cinematube.vercel.app/tv-shows/${params.tvId}/season/${params.seasonId}/cast`,
     },
-    { property: 'og:title', content: `Sora - ${name} ${seasonDetail?.name || ''} - Cast` },
-    { name: 'twitter:title', content: `Sora - ${name} ${seasonDetail?.name || ''} - Cast` },
+    { property: 'og:title', content: `Cinematube - ${name} ${seasonDetail?.name || ''} - Cast` },
+    { name: 'twitter:title', content: `Cinematube - ${name} ${seasonDetail?.name || ''} - Cast` },
   ];
 });
 

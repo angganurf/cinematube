@@ -52,13 +52,13 @@ export const meta = mergeMeta<typeof loader, { 'routes/tv-shows+/$tvId': typeof 
     const { detail } = tvData;
     const { name } = detail || {};
     return [
-      { title: `Sora - ${name} - Photos` },
-      { property: 'og:title', content: `Sora - ${name} - Photos` },
+      { title: `Cinematube - ${name} - Photos` },
+      { property: 'og:title', content: `Cinematube - ${name} - Photos` },
       {
         property: 'og:url',
         content: `https://cinematube.vercel.app/tv-shows/${params.tvId}/photos`,
       },
-      { property: 'twitter:title', content: `Sora - ${name} - Photos` },
+      { property: 'twitter:title', content: `Cinematube - ${name} - Photos` },
     ];
   },
 );

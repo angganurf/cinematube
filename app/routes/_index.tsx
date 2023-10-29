@@ -1,5 +1,5 @@
 import { json, type LoaderFunctionArgs } from '@remix-run/node';
-import { useLoaderData, useLocation, useNavigate } from '@remix-run/react';
+import { Scripts, useLoaderData, useLocation, useNavigate } from '@remix-run/react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
@@ -18,6 +18,7 @@ import { useTypedRouteLoaderData } from '~/utils/react/hooks/useTypedRouteLoader
 import { CACHE_CONTROL } from '~/utils/server/http';
 import featuredList from '~/constants/featuredList';
 import MediaList from '~/components/media/MediaList';
+import Banner200300 from '~/components/Ads/Banner200300';
 
 export const handle: Handle = {
   disableLayoutPadding: true,
@@ -159,6 +160,7 @@ const RootIndex = () => {
           />
         </div>
       </motion.div>
+      <Banner200300 />
       <script
         dangerouslySetInnerHTML={{
           __html: `

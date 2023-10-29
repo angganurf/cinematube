@@ -711,7 +711,7 @@ export const meta = mergeMeta<typeof loader>(({ data, params }) => {
   const { title, description } = detail || {};
   const animeTitle = title?.userPreferred || title?.english || title?.romaji || title?.native || '';
   return [
-    { title: `Sora - Watch ${animeTitle} episode ${episodeInfo?.number || ''}` },
+    { title: `Cinematube - Watch ${animeTitle} episode ${episodeInfo?.number || ''}` },
     {
       name: 'description',
       content: description
@@ -725,7 +725,7 @@ export const meta = mergeMeta<typeof loader>(({ data, params }) => {
     {
       property: 'og:title',
 
-      content: `Sora - Watch ${animeTitle} episode ${episodeInfo?.number || ''}`,
+      content: `Cinematube - Watch ${animeTitle} episode ${episodeInfo?.number || ''}`,
     },
     {
       property: 'og:description',
@@ -742,7 +742,7 @@ export const meta = mergeMeta<typeof loader>(({ data, params }) => {
     {
       name: 'twitter:title',
 
-      content: `Sora - Watch ${animeTitle} episode ${episodeInfo?.number || ''}`,
+      content: `Cinematube - Watch ${animeTitle} episode ${episodeInfo?.number || ''}`,
     },
     {
       name: 'twitter:description',

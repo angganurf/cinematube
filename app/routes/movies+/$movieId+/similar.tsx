@@ -53,13 +53,13 @@ export const meta = mergeMeta<typeof loader, { 'routes/movies+/$movieId': typeof
     const { title } = detail || {};
     const movieTitle = title || '';
     return [
-      { title: `Sora - ${movieTitle} - Similar` },
+      { title: `Cinematube - ${movieTitle} - Similar` },
       {
         property: 'og:url',
         content: `https://cinematube.vercel.app/movies/${params.movieId}/similar`,
       },
-      { property: 'og:title', content: `Sora - ${movieTitle} - Similar` },
-      { name: 'twitter:title', content: `Sora - ${movieTitle} - Similar` },
+      { property: 'og:title', content: `Cinematube - ${movieTitle} - Similar` },
+      { name: 'twitter:title', content: `Cinematube - ${movieTitle} - Similar` },
     ];
   },
 );

@@ -27,16 +27,16 @@ export const meta = mergeMeta<typeof loader>(({ data, params }) => {
   }
   const { detail } = data;
   return [
-    { title: `Sora - ${detail?.name || ''}` },
+    { title: `Cinematube - ${detail?.name || ''}` },
     { name: 'description', content: `${detail?.description || ''}` },
     { name: 'keywords', content: `${detail?.name || ''}` },
     {
       property: 'og:url',
       content: `https://cinematube.vercel.app/lists/${params.listId}`,
     },
-    { property: 'og:title', content: `Sora - ${detail?.name || ''}` },
+    { property: 'og:title', content: `Cinematube - ${detail?.name || ''}` },
     { property: 'og:description', content: `${detail?.description || ''}` },
-    { name: 'twitter:title', content: `Sora - ${detail?.name || ''}` },
+    { name: 'twitter:title', content: `Cinematube - ${detail?.name || ''}` },
     { name: 'twitter:description', content: `${detail?.description || ''}` },
   ];
 });

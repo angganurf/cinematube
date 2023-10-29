@@ -60,10 +60,10 @@ export const meta = mergeMeta<typeof loader, { 'routes/movies+/$movieId': typeof
     const { detail } = movieData;
     const { title } = detail || {};
     return [
-      { title: `Sora - ${title}` },
-      { property: 'og:title', content: `Sora - ${title}` },
+      { title: `Cinematube - ${title}` },
+      { property: 'og:title', content: `Cinematube - ${title}` },
       { property: 'og:url', content: `https://cinematube.vercel.app/movies/${params.movieId}/` },
-      { property: 'twitter:title', content: `Sora - ${title}` },
+      { property: 'twitter:title', content: `Cinematube - ${title}` },
     ];
   },
 );

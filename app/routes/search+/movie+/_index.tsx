@@ -37,15 +37,15 @@ export const loader = async ({ request }: LoaderFunctionArgs) => {
 };
 
 export const meta = mergeMeta(() => [
-  { title: 'Sora - Search Movies' },
+  { title: 'Cinematube - Search Movies' },
   { name: 'description', content: 'Search Movies on Sora' },
   {
     property: 'og:url',
     content: 'https://cinematube.vercel.app/search/movie/ ',
   },
-  { property: 'og:title', content: 'Sora - Search Movies' },
+  { property: 'og:title', content: 'Cinematube - Search Movies' },
   { property: 'og:description', content: 'Search Movies on Sora' },
-  { name: 'twitter:title', content: 'Sora - Search Movies' },
+  { name: 'twitter:title', content: 'Cinematube - Search Movies' },
   { name: 'twitter:description', content: 'Search Movies on Sora' },
 ]);
 
