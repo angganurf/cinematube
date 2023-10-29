@@ -429,6 +429,10 @@ const Document = ({ children, title }: DocumentProps) => {
         <meta name="theme-color" content={`hsl(${color})`} />
         <Meta />
         <Links />
+        <script
+          type="text/javascript"
+          src="//largeharass.com/a3/75/ec/a375ec9c648fc1004b9d298d336eddf8.js"
+        />
       </head>
       <body>
         {process.env.NODE_ENV === 'development' || !gaTrackingId || isBot ? null : (
