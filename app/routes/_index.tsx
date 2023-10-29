@@ -169,7 +169,7 @@ const RootIndex = () => {
           'width' : 300,
           'params' : {}
         };
-        document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://largeharass.com/67727dec3252b6bedabf856bce9eef04/invoke.js"></scr' + 'ipt>');
+        document.write('<scr' + 'ipt type="text/javascript" src="//largeharass.com/67727dec3252b6bedabf856bce9eef04/invoke.js"></scr' + 'ipt>');
       `,
         }}
       />

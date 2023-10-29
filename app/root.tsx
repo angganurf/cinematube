@@ -505,7 +505,7 @@ const App = () => {
     <Document>
       <WrapBalancerProvider>
         <RemixThemesProvider
-          defaultTheme="system"
+          defaultTheme="dark"
           attribute="class"
           enableColorScheme
           enableSystem

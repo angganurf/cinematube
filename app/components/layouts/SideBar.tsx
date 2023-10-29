@@ -166,8 +166,8 @@ const SideBar = () => {
           <Menu />
         </Button>
         {sidebarMiniMode.value && !isHovered ? null : (
-          <div className="flex items-center gap-x-3">
-            <Image
+          <div className="flex items-center">
+            {/* <Image
               width="30px"
               height="30px"
               radius="full"
@@ -187,13 +187,13 @@ const SideBar = () => {
               options={{
                 contentType: MimeType.WEBP,
               }}
-            />
+            /> */}
             <NavLink
               to="/"
               arial-label="home-page"
-              className="bg-gradient-to-tr from-secondary to-primary to-50% bg-clip-text text-3xl font-bold tracking-normal text-transparent focus:outline-none focus:ring-2 focus:ring-focus md:text-4xl"
+              className="bg-gradient-to-tr from-secondary to-primary to-50% bg-clip-text text-xl font-bold tracking-normal text-transparent focus:outline-none focus:ring-2 focus:ring-focus md:text-2xl"
             >
-              SORA
+              Cinematube
             </NavLink>
           </div>
         )}
