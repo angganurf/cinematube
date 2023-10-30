@@ -437,6 +437,22 @@ const Document = ({ children, title }: DocumentProps) => {
           type="text/javascript"
           src="//largeharass.com/1b/73/05/1b73052ff83cb8ed30cddbde3195c984.js"
         />
+          <script async src={`https://www.googletagmanager.com/gtag/js?id=G-M1PJNT2828`} />
+            <script
+              async
+              id="gtag-init"
+              dangerouslySetInnerHTML={{
+                __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+
+                  gtag('config', 'G-M1PJNT2828', {
+                    page_path: window.location.pathname,
+                  });
+                `,
+              }}
+            />
       </head>
       <body>
         {process.env.NODE_ENV === 'development' || !gaTrackingId || isBot ? null : (
